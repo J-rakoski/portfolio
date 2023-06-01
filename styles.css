@@ -6,7 +6,7 @@ body {
 div.nav {
   border-radius: 100px;
   width: 100%;
-  box-shadow: 10px 10px 2px #d3d3d3;
+  box-shadow: 5px 0px 10px #d3d3d3;
   margin-top: 20px;
   margin-bottom: 20px;
   background: white;
