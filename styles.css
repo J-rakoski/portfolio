@@ -2,3 +2,11 @@ body {
   background: black;
   color: white;
 }
+.nav {
+  border-radius: 100px;
+  width: 100%;
+  box-shadow: 10px 10px 10px #d3d3d3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
