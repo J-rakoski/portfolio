@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="javascript.js"></script>
+  <script src="https://kit.fontawesome.com/0eb56815fe.js" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener('scroll', () => {
+    const header = document.querySelector('nav');
+
+    if (window.scrollY > 0) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+})
+  </script>
 </head>
 <body>
-  <div class="nav">
-    <ul class=nav-links">
-      <li>Home</li>
-      <li>Portfolio</li>
-    </ul>
-  </div>
-  <h1>This is a test</h1>
-</body>
-</html>
+  <header>
+    <img src="https://media.licdn.com/dms/image/C4E03AQHUAXmLOAMMjQ/profile-displayphoto-shrink_800_800/0/1555801726477?e=2147483647&v=beta&t=txGuHLylvOKJK_iAXEGXszHMRoDgDRz2jXK3ZMMQDxI">
+    <nav class="nav-bar-center">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+      <a class="download" href="C:\Users\josh3\Downloads\portfolio-portfolio.html\portfolio-portfolio.html\Josh Resume v2 (2).docx" download="Resume">Download CV</a>
+    </nav>
+  </header>
+    <div class="header">
+      <div class="center">
+      <h3>Hello, <b>I'm</b></h3>
+      <h1>Joshua Rakoski</h1>
+      <h2>Web Designer and Web Developer</h2>
+      <br />
+      <p style="color: white; text-transform: uppercase; margin-bottom: 0px;">Find me on</p>
+      <a href="https://www.linkedin.com/in/joshua-rakoski/" target="_blank"><span id="socials" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></span></a>
+      <a href="https://github.com/jsrk7" target="_blank"><span id="socials" class="github"><i class="fa-brands fa-github"></i></span></a>
+      <a href="youtube.com"><span id="socials" class="youtube"><i class="fa-brands fa-youtube"></i></span></a>
+      <a href="https://dribbble.com/jsrk73" target="_blank"><span id="socials" class="dribbble"><i class="fa-brands fa-dribbble target=_blank"></i></span></a>
+      </div>
+    </div>
+    <div class="resume">
+      <div class="center">
+      <h2>My Resume</h2>
+        <h3>Job Experience</h3>
+        <h4>Project Coordinator</h4>
+        <h5>Cabo Fish Taco | MAR 2022 - PRESENT</h5>
+        <p>During this job....</p>
+      </div>
+    </div>
+  </body>
+  </html>
