@@ -12,6 +12,12 @@ div.nav {
   background: white;
   z-index: 10;
 }
-ul.nav-links li {
+li {
   color: black;
+  font-size: 16px;
+}
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
