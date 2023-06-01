@@ -1,6 +1,7 @@
 body {
   background: black;
   color: white;
+  z-index: 1;
 }
 div.nav {
   border-radius: 100px;
@@ -9,4 +10,5 @@ div.nav {
   margin-top: 20px;
   margin-bottom: 20px;
   background: white;
+  z-index: 10;
 }
